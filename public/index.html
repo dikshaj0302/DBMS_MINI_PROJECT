@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+    <div class="nav-left">
+      <button class="open-btn" onclick="openSidebar()">☰ Menu</button>
+      <div class="logo-text">KitabCycle</div>
+    </div>
+    <div class="nav-center">
+      <div class="search-box">
+        <input type="text" placeholder="Search Books...">
+        <button type="submit">Search</button>
+      </div>
+    </div>
+    <div class="nav-right">
+      <ul class="nav-menu">
+        <li><a href="/sell/sell.html">+ Sell Used Books</a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i> My Account</a></li>
+        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeSidebar()">×</a>
+    <a href="login.html">Login / Sign Up</a>
+    <a href="pages/browse-categories.html">Browse Top Book Categories</a>
+    <a href="pages/profile.html">My Profile</a>
+    <a href="pages/my-ads.html">My Ads</a>
+    <a href="pages/orders.html">My Orders</a>
+    <a href="pages/sellpage.html">My Selling Orders</a>
+    <a href="pages/my-chats.html">My Chats</a>
+    <a href="pages/cart.html">Cart</a>
+    <a href="pages//wishlist.html">Wishlist</a>
+    <a href="pages/howItWork.html">How it Works?</a>
+    <button class="cta-btn">Sell your used books</button>
+  </div>
+    </header>
+<div class="frontmenu">
+      <img src="/display2.jpg" class="display-menu">
+    <div class="overlay-content">
+      <h1>Buy and Sell Old Books Online in India for Actual Money!</h1>
+      <h4>At KitabCycle you can buy second hand books and sell old books online at best prices. Selling used books online for cash made easy with KitabCycle!</h3>
+     <div class="book-options">
+        <div class="BuyUsedBooks">
+         <img src="images-removebg-preview.png" alt="Buy Books" class="box-icon">
+         <p>Buy Used Books</p>
+        </div>
+        <span class="or-text">OR</span>
+        <div class="SellUsedBooks">
+        <img src="hand-money.svg" alt="Sell Books" class="box-icon">
+         <p>Sell Used Books</p>
+        </div>
+   </div>
+    </div>
+</div>
+<div class="book-section">
+    <h2>Newly Added Books</h2>
+     <div class="book-list" id="book-list"></div>
+</div>
+
+  <div class="book-navigation">
+  <div class="dots" id="dots"></div>
+  <button class="explore-btn">Explore all used books</button>
+</div>
+<div class="about">
+  <h1>KitabCycle - A Student-to-Student Bookstore</h1>
+  <p>
+      Are you a college going student and are upset with the increasing number of used books after each new semester, 
+      or you are a regular book reader who after reading the books keep the old books on the bookshelves or in a cupboard and forget them? 
+      If yes, then KitabCycle is just made for you!
+    </p>
+      <p>
+      KitabCycle is India’s leading platform where you can sell used books online. At KitabCycle, we help people to sell their used books to another 
+      book lover just like them at interesting prices.
+    </p>
+        <p>
+      Selling and buying books on KitabCycle is a win-win situation for both the buyer and the seller. How? Let’s see. As a seller, 
+      you can earn some good amount of money by selling your old books (which you don’t even need) to another person at good prices. 
+      And being a buyer, you can save some money by buying the second hand books directly from the book owner.
+    </p>
+    <p class="highlight">
+      “Selling used second hand books at your own desired price is not an uphill battle anymore. Just sell them on KitabCycle!”
+    </p>
+
+</div>
+<div class="container">
+    <h2>Have used, old books cluttering on your bookshelves?</h2>
+    <p>
+      Why not sell your old books and convert them into 
+      <b>'Real Money'</b> into your account.
+    </p>
+    <p>
+      "Sell your used books, directly to a book lover just like you for actual money."
+    </p>
+    <a href="#" class="btn">Post Book Now</a>
+  </div>
+  <div class="stepstosell">
+    <h2>
+      How to <span class="highlight1">SELL</span> your old books online on KitabCycle?
+    </h2>
+    <p class="intro">
+      Well, you can sell your old used books very easily on KitabCycle for actual cash.  
+      Earning money by selling your old books is just <b>3 steps</b> away from you! 
+    </p>
+
+    <div class="steps">
+      <!-- Step 1 -->
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Post Ad">
+        <p><b>Post an ad</b> for selling used books</p>
+        <span class="step-label">Step 1</span>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/1170/1170627.png" alt="Set Price">
+        <p><b>Set the selling price</b> for your books</p>
+        <span class="step-label">Step 2</span>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Get Buyer">
+        <p><b>Connect with buyers</b> and sell your books</p>
+        <span class="step-label">Step 3</span>
+      </div>
+    </div>
+  </div>
+  <div class="stepstobuy">
+    <h2>
+      How to <span class="highlight1">BUY</span> second hand books online on KitabCycle?
+    </h2>
+    <p class="intro">
+      Well, you can buy second hand books very easily on KitabCycle.  
+      Saving some good amount of money by buying used (preloved) books is just <b>3 steps</b> away from you! 
+    </p>
+
+    <div class="steps">
+      <!-- Step 1 -->
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/2811/2811806.png" alt="Select book">
+        <p><b>Select the used books </b>you want</p>
+        <span class="step-label">Step 1</span>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/1170/1170576.png" alt="Place order">
+        <p><b>Place the order </b>by making payment to KitabCycle</p>
+        <span class="step-label">Step 2</span>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Get Buyer">
+        <p><b>Get the books delivered </b>at your doorstep</p>
+        <span class="step-label">Step 3</span>
+      </div>
+    </div>
+  </div>
+<footer>
+    &copy; 2025 KitabCycle. All Rights Reserved.
+</footer>
+
+<script>
+    function openSidebar() {
+      document.getElementById("sidebar").style.width = "250px";
+    }
+
+    function closeSidebar() {
+      document.getElementById("sidebar").style.width = "0";
+    }
+  </script>
+  <script href="index.js"></script>
+   <script href="server.js"></script>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+  <div class="profile-page">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">📚 BookMart</h2>
+      <ul class="menu">
+        <li class="active">My Profile</li>
+        <li>My Ads</li>
+        <li>My Orders</li>
+        <li>My Selling Orders</li>
+        <li>My Chats</li>
+        <li>Wishlist</li>
+      </ul>
+    </aside>
+
+    <!-- Profile Form Section -->
+    <section class="profile-section">
+      <div class="header">
+        <h1>Change your profile</h1>
+      </div>
+
+      <form class="profile-form">
+        <div class="form-row">
+          <div class="input-group">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name">
+          </div>
+
+          <div class="input-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name">
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label>Email Address</label>
+          <input type="email" value="chavansakshu2024@gmail.com">
+          <p class="verified">✔ Email address is verified</p>
+        </div>
+
+        <div class="input-group">
+          <label>Phone Number (WhatsApp only)</label>
+          <div class="phone-field">
+            <span>+91</span>
+            <input type="tel" placeholder="Phone Number">
+          </div>
+          <small>An active WhatsApp number only, you will receive updates via WhatsApp.</small>
+        </div>
+
+        <div class="input-group">
+          <label>Pincode</label>
+          <input type="text" placeholder="Your Pincode">
+        </div>
+
+        <div class="buttons">
+          <button type="reset" class="discard-btn">Discard Changes</button>
+          <button type="submit" class="update-btn">Update Profile</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>

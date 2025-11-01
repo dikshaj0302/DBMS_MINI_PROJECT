@@ -1,0 +1,105 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff8e5;;
+  color: #3B060A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* === CART CONTAINER === */
+.cart-container {
+  width: 100%;
+  max-width: 850px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  border-top: 6px solid #8A0000;
+}
+
+/* === HEADER === */
+.cart-header {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #E0E0E0;
+}
+
+.cart-header h1 {
+  font-size: 26px;
+  color: #3B060A;
+  font-weight: 700;
+}
+
+.cart-header span {
+  color: #8A0000;
+  font-weight: 600;
+}
+
+/* === EMPTY CART STATE === */
+.empty-cart {
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+}
+
+.cart-img img {
+  width: 160px;
+  height: auto;
+  opacity: 0.95;
+  margin-bottom: 25px;
+}
+
+.cart-message {
+  font-size: 17px;
+  color: #3B060A;
+  margin-bottom: 25px;
+}
+
+/* === BUTTON === */
+.cta-btn {
+  background-color: #8A0000;
+  color: #ffffff;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(138, 0, 0, 0.2);
+}
+
+.cta-btn:hover {
+  background-color: #C83F12;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(200, 63, 18, 0.25);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 600px) {
+  .cart-header h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .cart-img img {
+    width: 130px;
+  }
+
+  .cta-btn {
+    padding: 12px 25px;
+    font-size: 15px;
+  }
+}

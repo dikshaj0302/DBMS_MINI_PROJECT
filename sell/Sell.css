@@ -1,0 +1,252 @@
+/* Basic Reset and Font */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #c8bebe;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #f4f0f0;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #790d0d;
+}
+
+header a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Form Sections */
+form{
+    background-color: #c396862d;
+}
+
+.section {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.section-header {
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.section-header h2::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid  #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff;
+}
+
+.form-group .hint {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Specific Styles */
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+} 
+
+#manualSection,
+#isbnSection {
+  display: none; /* both hidden by default, JS will show the right one */
+}
+
+
+
+.btn-primary {
+    background-color: #007bff;
+    color:  #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.file-upload {
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    color: #888;
+}
+
+.file-upload i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.shipping-options {
+    display: flex;
+    align-items: center;
+}
+
+.shipping-options input[type="text"] {
+    flex: 1;
+}
+
+.shipping-options .or {
+    margin: 0 10px;
+    color: #666;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon .icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.input-with-icon input {
+    padding-left: 40px;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+}
+
+.phone-input span {
+    background-color: #e9ecef;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+.phone-input input {
+    border-radius: 0 4px 4px 0;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Post Ad Button */
+.btn-submit {
+    width: 200px;
+    padding: 15px;
+    background-color: #ffc107;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #e0a800;
+}
+
+/* Footer Links */
+.footer-links {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 30px;
+}
+
+.footer-links a {
+    color: #151616;
+    text-decoration: none;
+}

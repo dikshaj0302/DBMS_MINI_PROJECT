@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Your Selling Orders</title>
+  <link rel="stylesheet" href="orders.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="orders-header">
+      <h1>Manage your selling orders</h1>
+      <nav class="order-nav">
+        <button class="tab active" data-tab="all">📋 All Orders (0)</button>
+        <button class="tab warning" data-tab="action">⚠️ Action Required (0)</button>
+        <button class="tab process" data-tab="process">⏳ Under Process (0)</button>
+      </nav>
+    </header>
+
+    <main class="empty-state">
+      <div class="store-img">
+        <img src="store-closed.png" alt="Store Closed Illustration">
+      </div>
+      <p class="message">Sorry, you haven't listed any books for sale yet.</p>
+      <button id="startSellingBtn" class="cta-btn">Start Selling Now!</button>
+    </main>
+  </div>
+
+  <script src="orders.js"></script>
+</body>
+</html>
+
